@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "home_ppg": {
+      "type": "number"
+    },
+    "home_total_ypg": {
+      "type": "number"
+    },
+    "home_dom": {
+      "type": "integer"
+    },
+    "home_pct": {
+      "type": "number"
+    },
+    "home_rest_days": {
+      "type": "integer"
+    },
+    "home_injury_impact": {
+      "type": "integer"
+    },
+    "home_streak": {
+      "type": "integer"
+    },
+    "away_ppg": {
+      "type": "number"
+    },
+    "away_total_ypg": {
+      "type": "number"
+    },
+    "away_dom": {
+      "type": "integer"
+    },
+    "away_pct": {
+      "type": "number"
+    },
+    "away_rest_days": {
+      "type": "integer"
+    },
+    "away_injury_impact": {
+      "type": "integer"
+    },
+    "away_streak": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "home_ppg",
+    "home_total_ypg",
+    "home_dom",
+    "home_pct",
+    "home_rest_days",
+    "home_injury_impact",
+    "home_streak",
+    "away_ppg",
+    "away_total_ypg",
+    "away_dom",
+    "away_pct",
+    "away_rest_days",
+    "away_injury_impact",
+    "away_streak"
+  ],
+  "example": {
+	"home_ppg": 23.2,
+    "home_total_ypg": 344.2,
+  	"home_dom": 85,
+    "home_pct": 0.779,
+    "home_rest_days": 10,
+    "home_injury_impact": 99,
+    "home_streak": -5,
+    "away_ppg": 23.2,
+    "away_total_ypg": 344.2,
+  	"away_dom": 85,
+    "away_pct": 0.779,
+    "away_rest_days": 10,
+    "away_injury_impact": 99,
+    "away_streak": -5
+  }
+}

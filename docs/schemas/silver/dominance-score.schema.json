@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "season": {
+      "type": "string"
+    },
+    "week": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "rank": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "season",
+    "week",
+    "team",
+    "score",
+    "rank"
+  ],
+  "example": {
+    "season": "2023",
+    "week": "1",
+    "team": "NE",
+    "score": 85,
+    "rank": 3
+  }
+}

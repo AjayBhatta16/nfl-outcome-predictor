@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "season": {
+      "type": "string"
+    },
+    "week": {
+      "type": "string"
+    },
+    "player": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "snap_pct_when_healthy": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "season",
+    "week",
+    "player",
+    "status",
+    "team",
+    "snap_pct_when_healthy"
+  ],
+  "example": {
+	"season": "2022",
+  	"week": "12",
+  	"player": "Trey Lance",
+  	"status": "IR",
+  	"team": "SF",
+	"snap_pct_when_healthy": 0.99
+  }
+}
