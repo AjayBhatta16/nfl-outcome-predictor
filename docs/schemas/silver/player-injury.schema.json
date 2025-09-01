@@ -17,7 +17,13 @@
     "team": {
       "type": "string"
     },
-    "snap_pct_when_healthy": {
+    "snap_pct_when_healthy_o": {
+      "type": "number"
+    },
+    "snap_pct_when_healthy_d": {
+      "type": "number"
+    },
+    "snap_pct_when_healthy_st": {
       "type": "number"
     },
     "depth_position": {
@@ -30,7 +36,10 @@
     "player",
     "status",
     "team",
-    "snap_pct_when_healthy"
+    "snap_pct_when_healthy_o",
+    "snap_pct_when_healthy_d",
+    "snap_pct_when_healthy_st",
+    "depth_position"
   ],
   "example": {
 	"season": "2022",
@@ -38,6 +47,6 @@
   	"player": "Trey Lance",
   	"status": "IR",
   	"team": "SF",
-	"snap_pct_when_healthy": 0.99
+	"snap_pct_when_healthy_o": 0.99
   }
 }
