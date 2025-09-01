@@ -8,7 +8,10 @@
     "home_total_ypg": {
       "type": "number"
     },
-    "home_dom_{DOM_TYPE}": {
+    "home_dom_{DOM_TYPE}_score": {
+      "type": "number"
+    },
+    "home_dom_{DOM_TYPE}_rank": {
       "type": "number"
     },
     "home_pct": {
@@ -29,7 +32,10 @@
     "away_total_ypg": {
       "type": "number"
     },
-    "away_dom_{DOM_TYPE}": {
+    "away_dom_{DOM_TYPE}_score": {
+      "type": "number"
+    },
+    "away_dom_{DOM_TYPE}_rank": {
       "type": "number"
     },
     "away_pct": {
@@ -43,6 +49,12 @@
     },
     "away_streak": {
       "type": "integer"
+    },
+    "home_coach_pct": {
+        "type": "number"
+    },
+    "home_win": {
+        "type": "number"
     }
   },
   "required": [
