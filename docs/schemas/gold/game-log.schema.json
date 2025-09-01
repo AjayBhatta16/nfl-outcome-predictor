@@ -8,8 +8,8 @@
     "home_total_ypg": {
       "type": "number"
     },
-    "home_dom": {
-      "type": "integer"
+    "home_dom_{DOM_TYPE}": {
+      "type": "number"
     },
     "home_pct": {
       "type": "number"
@@ -29,8 +29,8 @@
     "away_total_ypg": {
       "type": "number"
     },
-    "away_dom": {
-      "type": "integer"
+    "away_dom_{DOM_TYPE}": {
+      "type": "number"
     },
     "away_pct": {
       "type": "number"

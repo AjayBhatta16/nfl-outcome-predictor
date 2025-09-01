@@ -19,6 +19,9 @@
     },
     "snap_pct_when_healthy": {
       "type": "number"
+    },
+    "depth_position": {
+        "type": "number"
     }
   },
   "required": [
