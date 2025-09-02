@@ -2,7 +2,10 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "home_ppg": {
+    "home_pfpg": {
+      "type": "number"
+    },
+    "home_papg": {
       "type": "number"
     },
     "home_total_ypg": {
@@ -26,7 +29,10 @@
     "home_streak": {
       "type": "integer"
     },
-    "away_ppg": {
+    "away_pfpg": {
+      "type": "number"
+    },
+    "away_papg": {
       "type": "number"
     },
     "away_total_ypg": {
